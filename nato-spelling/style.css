@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: #323437;
+    color: #323437;
+    text-align: center;
+}
+
+.container {
+    background-color: #E2B714;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 30%;
+  
+}
+
+.char {
+    font-size: 48px;
+    height: fit-content;
+}

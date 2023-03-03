@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: url('https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGltZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.clock {
+    display: flex;
+}
+
+.clock div {
+    margin: 10px 5px;
+}
+
+.clock span {
+    width: 100px;
+    height: 80px;
+    background: rgba(97, 76, 235, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+
+}
+
+.clock .number {
+    font-size: 36px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.clock .text {
+    height: fit-content;
+    padding-block: 8px;
+    background: rgb(39, 28, 109);
+}
