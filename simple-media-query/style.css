@@ -1,0 +1,36 @@
+:root {
+    --mobile-color: #cdb4db;
+    --tablet-color: #fff1e6;
+    --laptop-color: #52b788;
+    --desktop-color: #bee1e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 35px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #fff;
+}
+
+.text {
+    font-size: 55px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        background-color: var(--mobile-color);
+    }
+}
