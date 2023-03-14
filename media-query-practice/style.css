@@ -1,0 +1,58 @@
+:root {
+    --mobile-color: #cdb4db;
+    --tablet-color: #fff1e6;
+    --laptop-color: #52b788;
+    --desktop-color: #bee1e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 60px;
+    height: 10%;
+}
+
+.header__logo {
+    font-size: 4vw;
+}
+
+.header__menu {
+    display: flex;
+    gap: 15px;
+    font-size: 2.5vw;
+}
+
+.main {
+    height: 80%;
+    display: flex;
+}
+
+.main__image {
+    background-image: url('./media/Portrait.png');
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main__text {
+    width: 50%;
+}
+
+.footer {
+    height: 10%;
+}
