@@ -17,13 +17,13 @@ body {
 
 .container {
     height: 100vh;
+    padding-inline: 30px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline: 60px;
     height: 10%;
 }
 
@@ -46,13 +46,35 @@ body {
     background-image: url('./media/Portrait.png');
     width: 50%;
     background-size: contain;
+    background-position: left center;
     background-repeat: no-repeat;
 }
 
 .main__text {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 4vw;
+}
+
+.main__text-hello {
+    font-size: 5vw;
 }
 
 .footer {
     height: 10%;
+
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 15%;
+}
+
+.footer img {
+    width: 4.3vw;
 }
