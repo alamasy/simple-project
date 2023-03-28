@@ -41,3 +41,21 @@ body {
     height: 100vh;
     background-color: #655DBB;
 }
+
+.nav ul {
+    list-style-type: none
+}
+
+.nav li {
+    padding-block: 8px;
+    transition: all ease-out 0.2s;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    background-color: #BFACE2;
+}
+
+.nav a {
+    display: block;
+}
