@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    color: beige;
+}
+
+.toggle__menu {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 50px;
+    background-color: #655DBB;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.toggle__menu i {
+    font-size: 24px;
+    font-weight: bold;
+    color: beige;
+}
+
+.nav {
+    border: 2px solid #655DBB;
+    width: 290px;
+    height: 100vh;
+    background-color: #655DBB;
+}
