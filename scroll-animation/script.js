@@ -18,3 +18,5 @@ for (let i = 0; i < the_animation.length; i++) {
 
   observer.observe(elements);
 }
+
+// tes aja ini mah
